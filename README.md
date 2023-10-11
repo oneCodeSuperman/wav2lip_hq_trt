@@ -3,7 +3,7 @@
 
 【前言】
 
-这是一个悲哀的故事，在训练wav2lip后发现嘴部很模糊，然后尝试使用gfpgan进行高清处理，讲实话训练wav2lip后的高清化效果是非常好的！然而推理速度是相当拉胯的，无法做到实时直播甚至实现类似“阿凡达模式”。至此推理上抛弃了face_detection，改用yolov5-trt。wav2lip和gfpgan全部改用trt。也就是整个推理项目弃用pytorch，改用trt加速。目前项目已经实现了，但是很悲哀，该项目并没有得到公司的认可和重用。这可悲的资本世界！！！
+这是一个悲哀的故事，在训练wav2lip后发现嘴部很模糊，然后尝试使用gfpgan进行高清处理，讲实话训练wav2lip后的高清化效果是非常好的！然而推理速度是相当拉胯的，无法做到实时直播甚至实现类似“阿凡达模式”。至此推理上抛弃了face_detection，改用yolov5-trt。wav2lip和gfpgan全部改用trt。也就是整个推理项目弃用pytorch，改用trt加速。目前项目已经实现了，但是很悲哀，该项目并没有得到他人的认可和重用。这可悲的资本世界！！！
 
 至此打算开源于此造福世界。
 
@@ -15,6 +15,12 @@
 实时效果：【速度1比0.6，高清】 https://www.bilibili.com/video/BV1Bu4y1y7MG/?share_source=copy_web&vd_source=5fa766cf0a6856c1ffa6536f1ebc6095
 
 阿凡达模式：【阿凡达模式】 https://www.bilibili.com/video/BV1cK4y1w77r/?share_source=copy_web&vd_source=5fa766cf0a6856c1ffa6536f1ebc6095
+
+自己:
+
+https://github.com/oneCodeSuperman/wav2lip_hq_trt/assets/147574712/819db64b-1fb6-4035-a42a-d3c700da0666
+
+
 
 
 【推理2070显卡】
