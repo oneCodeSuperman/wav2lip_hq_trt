@@ -20,6 +20,10 @@
 
 https://github.com/oneCodeSuperman/wav2lip_hq_trt/assets/147574712/819db64b-1fb6-4035-a42a-d3c700da0666
 
+定制训练嘴部清晰度：
+
+![定制训练](https://github.com/oneCodeSuperman/wav2lip_hq_trt/assets/147574712/a6498493-9428-4b2c-a259-ba02970194af)
+
 
 
 
